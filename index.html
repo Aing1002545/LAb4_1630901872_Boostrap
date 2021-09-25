@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Enhypen</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="csss/index.css">
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Enhypen</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="aboutme.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="engene.html">Engene</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Member
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="jungwon.html">Jungwon</a></li>
+              <li><a class="dropdown-item" href="heeseung.html">Heeseung</a></li>
+              <li><a class="dropdown-item" href="jay.html">Jay</a></li>
+              <li><a class="dropdown-item" href="jake.html">Jake</a></li>
+              <li><a class="dropdown-item" href="sunghoon.html">Sunghoon</a></li>
+              <li><a class="dropdown-item" href="sunoo.html">Sunoo</a></li>
+              <li><a class="dropdown-item" href="niki.html">Ni-ki</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="context.html">tracking channel</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Navbar-->
+  <!--รูปปก-->
+  
+  <!--https://getbootstrap.com/docs/5.1/components/carousel/-->
+  <!--เป็นเหมือนอัลบั้มรูปนำรูปมาใส่แล้วสไลค์ได้ทำให้งานดูมีอะไรมากขึ้น-->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/IMG_8609.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/IMG_8602.JPG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/IMG_8607.JPG" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <!--รูปปก-->
+  <!--ประวัติ-->
+  <div class="accordion accordion-flush " id="accordionFlushExample">
+    <div class="accordion-item bg-black">
+      <h2 class="accordion-header " id="flush-headingOne">
+        <button class="accordion-button collapsed bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne " aria-expanded="false" aria-controls="flush-collapseOne ">
+          Beginning
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">From the long-standing competition of BELIF+'s 'I-LAND' in collaboration with BigHit Entertainment and CJ ENM, the group now has a total of 7 final members with the group 'ENHYPEN'.</div>
+      </div>
+    </div>
+    <div class="accordion-item bg-black">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Name
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">The group's name was introduced through the livestream of the final episode of I-Land. According to the etymology, Enhypan got its name from the (-) symbol that created new meanings, including "connection, discovery, meet and grow.” Similar to connecting words to find new meanings, Enhypan has a goal. "To connect, discover and grow together to create something new."</div>
+      </div>
+    </div>
+    <div class="accordion-item bg-black">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Pre-Debut
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">They made their debut on November 30, 2020.</div>
+      </div>
+    </div>
+  </div>
+          
+           
+    
+    
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
