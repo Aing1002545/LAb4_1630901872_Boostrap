@@ -1,0 +1,25 @@
+.carousel-item{
+    height: 40rem;
+}
+body{
+    background-color:black;
+}
+h2{
+    text-align: center;
+}
+.main{
+    display: block;
+    width:100%;
+    position: absolute;
+    left: 100px;
+    color: aliceblue;
+}
+.accordion-body{
+    color: white;
+}
+.accordion-header{
+    color: white;
+}
+.accordion-button {
+    color: white;
+}

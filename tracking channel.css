@@ -1,0 +1,36 @@
+
+body{
+    background-image: url("https://i.pinimg.com/564x/4e/7b/96/4e7b9600ee87ebb38b558ddb160ee309.jpg");
+    display: block;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    border: 8px solid;
+    padding: 10px; 
+    width: 350px;
+    resize: both;
+    overflow: auto;
+    background-color:#000000;
+    border-radius: 50px;
+    margin:auto;
+    color: white;
+}
+img{
+    width: 750px;
+}
+p{
+    text-align: center;
+}
+.text{
+    text-align: center;
+    font-size: 35px;
+    border: 8px solid;
+    padding: 10px; 
+    width: 750px;
+    resize: both;
+    overflow: auto;
+    background-color:#ffffff;
+    margin:auto;
+    
+}

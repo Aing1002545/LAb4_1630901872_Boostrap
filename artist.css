@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    font-size: 35px;
+    border: 8px solid;
+    padding: 10px; 
+    width: 480px;
+    resize: both;
+    overflow: auto;
+    background-color:#030303;
+    border-radius: 50px;
+    margin:auto;
+    color: white;
+}
+table{
+    font-size: 20px;
+    border: 8px solid;
+    padding: 10px; 
+    width: 450px;
+    resize: both;
+    overflow: auto;
+    background-color:#030303;
+    margin:auto;
+    color: white;
+}
+img{
+    width: 80%;
+}
+.mx-auto{
+    width: 520px;
+}
+.accordion-header{
+    color: white;
+}
+.accordion-button {
+    color: white;
+    font-size: 25px;
+}
+table p{
+    text-align: center;
+}
+body{
+    background-image: url("https://i.pinimg.com/564x/d1/4a/b9/d14ab9e955f0652fd01e21ba9c34b169.jpg");
+}

@@ -1,0 +1,62 @@
+th{
+    width: 33.33%; 
+    vertical-align: top;
+}
+.oo{
+    text-align: center; 
+    font-weight:normal;
+    border: 2px solid;
+    padding: 2px; 
+    width: 400px;
+    resize: both;
+    overflow: auto;
+    background-color:black;
+    color: white;
+    border-radius: 50px;
+    margin:auto;
+
+}
+.im{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 3px black;
+    color: white;
+}
+h5{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 3px black;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 3px 3px black;
+    color: white;
+}
+.p-Footer{
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+}
+
+.img{
+    text-align: center;
+}
+
+body{
+    background-image:url("https://i.pinimg.com/564x/3e/8d/57/3e8d575b543c0c81f1c0cf46ddd43645.jpg");
+    display: block;
+}
+.table-aboutme{
+    background-color: black;
+
+}
+hr{
+    color: white;
+    height: 10px;
+    border-width:10;
+    background-color:white;
+}
